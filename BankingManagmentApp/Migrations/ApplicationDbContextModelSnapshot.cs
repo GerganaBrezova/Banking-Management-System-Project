@@ -438,6 +438,9 @@ namespace BankingManagmentApp.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<double>("Salary")
+                        .HasColumnType("float");
+
                     b.HasDiscriminator().HasValue("Customers");
                 });
 

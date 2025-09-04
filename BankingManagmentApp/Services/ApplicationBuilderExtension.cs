@@ -52,7 +52,9 @@ namespace BankingManagmentApp.Services
                 Address = "Sofia",
                 EmailConfirmed = true,
                 PhoneNumberConfirmed = true,
-
+                DateOfBirth = DateOnly.Parse("2025.09.01"),
+                IsActive = true,  
+                Salary=1000
             };
 
             var user = await userManager.FindByEmailAsync(defaultUser.Email);

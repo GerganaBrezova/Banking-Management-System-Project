@@ -9581,31 +9581,37 @@
       "MimeKit >= 4.13.0",
       "QRCoder >= 1.4.3",
       "QuestPDF >= 2025.7.1",
-      "SixLabors.Fonts >= 2.1.3",
       "SixLabors.ImageSharp >= 3.1.11",
       "SixLabors.ImageSharp.Drawing >= 2.1.7",
       "System.Drawing.Common >= 9.0.8"
     ]
   },
   "packageFolders": {
-    "/home/jovanab/.nuget/packages/": {}
+    "C:\\Users\\viole\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/jovanab/Projects/Banking-Management-System-Project/BankingManagmentApp/BankingManagmentApp.csproj",
+      "projectUniqueName": "C:\\Users\\viole\\Downloads\\Banking-Management-System-Project\\BankingManagmentApp\\BankingManagmentApp.csproj",
       "projectName": "BankingManagmentApp",
-      "projectPath": "/home/jovanab/Projects/Banking-Management-System-Project/BankingManagmentApp/BankingManagmentApp.csproj",
-      "packagesPath": "/home/jovanab/.nuget/packages/",
-      "outputPath": "/home/jovanab/Projects/Banking-Management-System-Project/BankingManagmentApp/obj/",
+      "projectPath": "C:\\Users\\viole\\Downloads\\Banking-Management-System-Project\\BankingManagmentApp\\BankingManagmentApp.csproj",
+      "packagesPath": "C:\\Users\\viole\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\viole\\Downloads\\Banking-Management-System-Project\\BankingManagmentApp\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/jovanab/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\viole\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -9618,7 +9624,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -9678,10 +9690,6 @@
             "target": "Package",
             "version": "[2025.7.1, )"
           },
-          "SixLabors.Fonts": {
-            "target": "Package",
-            "version": "[2.1.3, )"
-          },
           "SixLabors.ImageSharp": {
             "target": "Package",
             "version": "[3.1.11, )"
@@ -9714,7 +9722,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.119/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

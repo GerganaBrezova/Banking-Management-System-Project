@@ -42,7 +42,7 @@ namespace BankingManagmentApp.Controllers
                 loan.Status = "Pending";
                 loan.Date = DateTime.Now;
                 loan.Amount = loan.Amount;
-                
+                //delete hardcode type
                 _context.Loans.Add(loan);
                 await _context.SaveChangesAsync();
 

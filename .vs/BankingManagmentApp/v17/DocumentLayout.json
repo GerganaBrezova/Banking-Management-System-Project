@@ -48,7 +48,7 @@
               "RelativeDocumentMoniker": "BankingManagmentApp\\Controllers\\LoansController.cs",
               "ToolTip": "C:\\Users\\viole\\Downloads\\Banking-Management-System-Project\\BankingManagmentApp\\Controllers\\LoansController.cs",
               "RelativeToolTip": "BankingManagmentApp\\Controllers\\LoansController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAA1wCwAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwC0AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-09T10:07:54.226Z",
               "EditorCaption": ""
@@ -63,8 +63,7 @@
               "RelativeToolTip": "BankingManagmentApp\\Models\\Loans.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T10:07:58.726Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-09T10:07:58.726Z"
             },
             {
               "$type": "Document",
@@ -76,8 +75,7 @@
               "RelativeToolTip": "BankingManagmentApp\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAEEAAAAAAAAAAAAqwHsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-09T09:58:56.986Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-09T09:58:56.986Z"
             },
             {
               "$type": "Document",

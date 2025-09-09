@@ -53,8 +53,7 @@
               "RelativeToolTip": "BankingManagmentApp\\Controllers\\LoansController.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAYwCwAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T10:07:54.226Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-09T10:07:54.226Z"
             },
             {
               "$type": "Document",
@@ -66,18 +65,16 @@
               "RelativeToolTip": "BankingManagmentApp\\Models\\Loans.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T10:07:58.726Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-09T10:07:58.726Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "dbo.Loans [Data]",
+              "Title": "dbo.Loans.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Bank/True/SqlTable/dbo.Loans.sql",
-              "ToolTip": "dbo.Loans [Data]",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Bank/True/SqlTable/dbo.Loans.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-09-09T10:06:50.756Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-09T10:06:50.756Z"
             },
             {
               "$type": "Document",
@@ -89,8 +86,7 @@
               "RelativeToolTip": "BankingManagmentApp\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAEEAAAAAAAAAAAAqwHsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-09T09:58:56.986Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-09T09:58:56.986Z"
             },
             {
               "$type": "Document",

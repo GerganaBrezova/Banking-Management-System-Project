@@ -6,6 +6,10 @@ using BankingManagmentApp.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
+using Microsoft.Extensions.AI;
+using OpenAI;
+using Microsoft.Extensions.Configuration;
+
 var builder = WebApplication.CreateBuilder(args);
 
 QuestPDF.Settings.License = LicenseType.Community;
@@ -49,6 +53,22 @@ builder.Services.AddScoped<LoansService>();
 
 // Background авто-претрениране (стартира на boot и по график)
 builder.Services.AddHostedService<MlRetrainHostedService>();
+
+// register an IChatClient backed by the OpenAI library and expose as Microsoft.Extensions.AI.IChatClient
+builder.Services.AddChatClient(sp =>
+{
+    var config = sp.GetRequiredService<IConfiguration>();
+    var key = config["OpenAIKey"] ?? throw new InvalidOperationException("OpenAIKey not set");
+    var model = config["ModelName"] ?? "gpt-4o-mini";
+
+    // create the provider client and adapt to IChatClient
+    var openAiClient = new OpenAI.OpenAIClient(key);                 // from OpenAI package
+    var chatClient = openAiClient.GetChatClient(model).AsIChatClient(); // adapt to ME.AI abstraction
+    return chatClient;
+});
+
+// register your wrapper service so controllers can inject it
+builder.Services.AddScoped<AiChatService>();
 
 var app = builder.Build();
 

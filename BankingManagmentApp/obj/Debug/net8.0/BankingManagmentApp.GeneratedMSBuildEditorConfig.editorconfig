@@ -144,6 +144,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudHMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/gerganabrezova/Desktop/Banking-Management-System-Project/BankingManagmentApp/Views/Chat/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2hhdC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/gerganabrezova/Desktop/Banking-Management-System-Project/BankingManagmentApp/Views/Customers/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXJzL0NyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -198,6 +202,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/gerganabrezova/Desktop/Banking-Management-System-Project/BankingManagmentApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gerganabrezova/Desktop/Banking-Management-System-Project/BankingManagmentApp/Views/Shared/_Chatbot.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19DaGF0Ym90LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/gerganabrezova/Desktop/Banking-Management-System-Project/BankingManagmentApp/Views/Shared/_LoginPartial.cshtml]
